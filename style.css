@@ -1,0 +1,52 @@
+.left{
+    width: 40%;
+    height: 100%;
+    position: fixed;
+    background-color: white;
+    float: left;  
+    position: fixed;
+}
+.center{
+width:50%;
+padding:auto;
+margin:10% 20% auto;
+}
+.ubuntu {font-family:"Ubuntu";color: #2E2E2E;}
+.bold{font-weight:500;
+line-height: 150%;}
+.regular{font-weight: 400;}
+.light{font-weight: 300;}
+.big{font-size: 25pt;}
+.midium{font-size:18pt;}
+.small{font: 13pt;}
+.xsmall{font: 10pt;}
+.box{
+    width:70%;
+    height:80%; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    s       
+}
+
+.right{
+    width: 60%;
+    height: 100vh;
+    float: right;
+    position:relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    
+}
+.yellow{
+    background-color: #f4b93d;
+}
+.blue{
+    background-color: #005ba9;
+}
+
+.logo{width: 30%; 
+}
