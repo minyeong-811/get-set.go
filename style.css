@@ -50,6 +50,8 @@ line-height: 150%;}
     opacity: 1;
     cursor: pointer;
 }
+.underringhtbox:hover{transform: translateY(-10px);}
+.underringhtbox{transform: translateY(0px); transition:all 0.8s ease;} 
 
 .right{
     width: 60%;
@@ -72,4 +74,3 @@ line-height: 150%;}
 }
 .white{color: white;
 opacity: 0.8;}
-
