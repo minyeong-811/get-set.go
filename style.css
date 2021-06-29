@@ -30,7 +30,7 @@ line-height: 150%;}
 }
 .underbox{
     width: 70%;
-    position: absolute;bottom: 3%;left: 10%;
+    position: absolute;bottom: 3%;left: 7%;
     text-align: start;
 }
 .underringhtbox{
@@ -43,6 +43,9 @@ line-height: 150%;}
     justify-content: center;
     align-items: center; 
     opacity: 95%;
+}
+.topleftbox{
+    position: absolute; top: 5%; left:7%;
 }
 
 .underringhtbox:hover{
