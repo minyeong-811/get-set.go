@@ -1,5 +1,5 @@
 .p {
-  animation-duration: 1.5s;
+  animation-duration: 1.3s;
   animation-name: slidein;
 }  
 @keyframes slidein {
@@ -16,7 +16,7 @@
 }
 
 .p2 {
-  animation-duration:2.3s;
+  animation-duration:2s;
   animation-name: slidein;
 }  
 @keyframes slidein {
@@ -31,17 +31,32 @@
     opacity: 1;
   }
 
-  45%{
+  40%{
     opacity: 0;
   }
 }
 
 .p3{
-  animation-duration: 3s;
+  animation-duration: 2.3s;
   animation-name: hide;
 }
 @keyframes hide{
   from{opacity:0;}
   to{opacity:1;}
+  50%{opacity: 0;}
+}
+
+.p4 {
+  animation-duration: 2.3s;
+  animation-name: opacity;
+}  
+@keyframes opacity{
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
   50%{opacity: 0;}
 }
