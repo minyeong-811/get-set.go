@@ -5,7 +5,7 @@
 }
 
 .contact2{
-    margin:15px 20% auto;
+    margin:15px 15px 15px 20%;
     width: auto;
     height: 15%;
     }
@@ -15,6 +15,7 @@
     height: 25px;
     float: left;
     padding-right: 15%;
+    padding-bottom: 25px;
 }
 
  
