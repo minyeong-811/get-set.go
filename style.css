@@ -22,12 +22,33 @@ line-height: 150%;}
 .xsmall{font: 10pt;}
 .box{
     width:70%;
-    height:80%; 
-    margin: 0 auto;
+    height:70%; 
+    margin: 10% auto;
     display: flex;
     justify-content: center;
     align-items: center; 
-    s       
+}
+.underbox{
+    width: 70%;
+    position: absolute;bottom: 3%;left: 10%;
+    text-align: start;
+}
+.underringhtbox{
+    width:60px;height: 60px;
+    border-radius: 30px;
+    background-color: white;
+    position: absolute;bottom: 5%;right: 5%;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    opacity: 95%;
+}
+
+.underringhtbox:hover{
+    box-shadow: 5px 9px 28.5px 1.5px rgba(0, 0, 0, 0.4) ;
+    opacity: 1;
+    cursor: pointer;
 }
 
 .right{
@@ -36,7 +57,6 @@ line-height: 150%;}
     float: right;
     position:relative;
     display: flex;
-    align-items: center;
     text-align: center;
 
     
@@ -50,3 +70,6 @@ line-height: 150%;}
 
 .logo{width: 30%; 
 }
+.white{color: white;
+opacity: 0.8;}
+
